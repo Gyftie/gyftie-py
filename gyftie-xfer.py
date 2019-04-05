@@ -9,12 +9,12 @@ ce = eospy.cleos.Cleos(url='https://jungle2.cryptolions.io')
 
 arguments = {
             "from": "gyftieuser11",  # sender
-            "to": "gyftieuser12",  # receiver
-            "quantity": '0.10000000 GFT',  # In EOS
+            "to": "gftorderboo1",  # receiver
+            "quantity": '2.5000 EOS',  
             "memo": "memo",
         }
 payload = {
-        "account": "gyftietokens",
+        "account": "eosio.token",
         "name": "transfer",
         "authorization": [{
             "actor": "gyftieuser11",
